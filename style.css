@@ -1,6 +1,7 @@
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
+    color: white;
 }
 
 footer {
@@ -25,6 +26,7 @@ footer p {
     border-radius: 32px;
     background-color: white;
     align-self: center;
+    width: fit-content;
 }
 
 .button:hover {
@@ -35,4 +37,188 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.line img {
+    height: 48px;
+    align-self: center;
+}
+
+.line h2 {
+    color: white;
+    font-weight: 500;
+    align-self: center;
+}
+
+.grigio {
+    background-color: #131313;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#main .grigio>p {
+    margin-bottom: 220px;
+}
+
+#sidebar {
+    width: 500px;
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#secondo a {
+    display: flex;
+}
+
+#plus {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+}
+
+#plus:hover {
+    background-color: gainsboro;
+    border-radius: 100px;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
+.grigiochiaro {
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#links a {
+    display: inline;
+    margin: 0 10px;
+    color: white;
+    font-weight: 500;
+}
+
+#links>a:hover {
+    text-decoration: underline;
+}
+
+#lang {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 20px;
+}
+
+#lang img {
+    width: 20px;
+}
+
+#lang p {
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+#frecce a {
+    color: white;
+    font-size: xx-large;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+#frecce {
+    display: flex;
+}
+
+#login {
+    align-self: center;
+}
+
+#navbar {
+    margin-top: 20px;
+}
+
+.gradient {
+    background-image: linear-gradient(0deg, #131313 0%, rgb(41, 41, 41) 100%);
+}
+
+.caret {
+    display: flex;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.card p {
+    color: #a5a5a5;
+}
+
+#main {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.card {
+    margin: 0 10px;
+}
+
+#robe {
+    display: flex;
+    flex-direction: row;
+}
+
+#robe a {
+    display: block;
+    color: #a5a5a5;
+    font-weight: 500;
+}
+
+#robe a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.colonna {
+    margin: 0 10px;
+}
+
+#socials img {
+    filter: invert();
+}
+
+#socials a {
+    background-color: rgb(72, 72, 72);
+    border-radius: 50px;
+    height: fit-content;
+    padding: 10px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
 }
